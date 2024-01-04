@@ -88,7 +88,7 @@ export const info = {
             emoji: '💻'
         },
         {
-            label: 'reading',
+            label: 'Reading',
             emoji: '📖'
         },
         {
@@ -100,17 +100,13 @@ export const info = {
             emoji: '🚶‍♂️'
         },
         {
-            label: 'movies',
+            label: 'Movies',
             emoji: '🎥'
-        },
-        {
-            label: 'cooking',
-            emoji: '🌶'
         },
     ],
     portfolio: [
         {
-            title: "Electronics Store",
+            title: "My Portfolio",
             live: "https://nijataliyev.vercel.app/",
             source: "https://github.com/nicatelyv/",
             image: mock3

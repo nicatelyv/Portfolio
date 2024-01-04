@@ -23,9 +23,9 @@ const links = [
         active: 'home'
     },
     {
-        name: 'Portfolio',
-        to: '/portfolio',
-        active: 'portfolio'
+        name: 'Projects',
+        to: '/projects',
+        active: 'projects'
     },
     {
         name: 'Resume',
@@ -40,19 +40,19 @@ export default function Navbar({ darkMode, handleClick }) {
 
     return (
         <Box component={'nav'} width={'100%'}>
-            <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
-                gap={{ xs: '2rem', md: '5rem' }}
-                textTransform={'lowercase'} fontSize={'1rem'}>
+            <Box component={'ul'} display={'flex'} justifyContent={{ md: "center", xs: "space-between" }} alignItems={'center'} textAlign={'center'} marginLeft={'20px'} marginRight={'20px'}
+                gap={{ xs: '1rem', md: '5rem' }}
+                fontSize={{ xs: "14px", md: '1rem' }}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                         sx={{ borderImageSource: info.gradient }}>
                         <Link to={link.to} onClick={() => setActive(link.active)} className={Style.link}>
-                            {!link.type && <p style={{ padding: '0.5rem 0' }}>{link.name}</p>}
-                            {link.type && <h1>{link.name}</h1>}
+                            {!link.type && <p style={{ padding: '0.5 rem 0', marginTop: "15px" }}>{link.name}</p>}
+                            {link.type && <h1 style={{ fontSize: "27px", marginTop: "15px" }}>{link.name}</h1>}
                         </Link>
                     </Box>
                 ))}
-                <li>
+                <li style={{ display: "flex", alignItems: "center", justifyContent: "center", marginTop: "15px" }}>
                     <Toggler darkMode={darkMode} handleClick={handleClick} />
                 </li>
             </Box>
