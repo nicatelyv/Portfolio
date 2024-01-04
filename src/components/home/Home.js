@@ -26,7 +26,7 @@ export default function Home() {
                   </>
 
                ))}
-               <a style={{ fontSize: "16px", marginLeft: "0px", display: "flex", alignItems: "center", gap: "10px" }} target='/' href='https://nijataliyev.vercel.app'><i style={{ color: "lightblue", fontSize: "25px" }} class="fa fa-globe"></i>2nd Portfolio</a>
+               <a style={{ fontSize: "16px", marginLeft: "-3px", display: "flex", alignItems: "center", gap: "10px" }} target='/' href='https://nijataliyev.vercel.app'><i style={{ color: "lightblue", fontSize: "25px" }} class="fa fa-globe"></i>2nd Portfolio</a>
             </Box>
             <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{ xs: '2rem', md: '2.5rem' }}>
                {info.socials.map((social, index) => (
