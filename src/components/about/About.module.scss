@@ -10,6 +10,7 @@
 
 .skills {
   columns: 1;
+
   @media only screen and (min-width: 940px) {
     columns: 2;
   }
@@ -18,4 +19,8 @@
     margin: 0;
     line-height: 1.75;
   }
+}
+
+.education {
+  columns: 1;
 }

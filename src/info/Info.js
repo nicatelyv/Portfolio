@@ -44,11 +44,11 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'LinkedIn'
         },
-        {
-            link: "https://nijataliyev.vercel.app/",
-            icon: "fa fa-address-card",
-            label: '2nd portfolio'
-        },
+        // {
+        //     link: "https://nijataliyev.vercel.app/",
+        //     icon: "fa fa-address-card",
+        //     label: '2nd portfolio'
+        // },
         {
             link: "https://instagram.com/nicatelyv",
             icon: 'fa fa-instagram',

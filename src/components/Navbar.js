@@ -6,21 +6,21 @@ import { Box } from "@mui/material";
 import { info } from "../info/Info";
 
 const links = [
-    {
-        name: 'Home',
-        to: '/',
-        active: 'home'
-    },
-    {
-        name: 'About Me',
-        to: '/about',
-        active: 'about'
-    },
+    // {
+    //     name: 'Home',
+    //     to: '/',
+    //     active: 'home'
+    // },
     {
         name: info.initials,
         type: 'initials',
         to: '/',
         active: 'home'
+    },
+    {
+        name: 'About',
+        to: '/about',
+        active: 'about'
     },
     {
         name: 'Projects',

@@ -14,6 +14,7 @@ export default function Home() {
          justifyContent={'center'} minHeight={'calc(100vh - 175px)'}>
          <Box className={classNames(Style.avatar, Style.shadowed)} alt={'image of developer'} style={{ background: info.gradient }} component={'img'} src={me} width={{ xs: '35vh', md: '40vh' }}
             height={{ xs: '35vh', md: '40vh' }}
+            marginTop={{ xs: "30px", md: "0" }}
             borderRadius={'50%'} p={'0.75rem'} mb={{ xs: '1rem', sm: 0 }} mr={{ xs: 0, md: '2rem' }} />
          <Box>
             <h1>Hi, I'm <span style={{ background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>{info.firstName}</span><span className={Style.hand}>🤚</span>
@@ -26,7 +27,7 @@ export default function Home() {
                   </>
 
                ))}
-               <a style={{ fontSize: "16px", marginLeft: "-5px", display: "flex", alignItems: "center", gap: "10px" }} target='/' href='https://nijataliyev.vercel.app'><i style={{ color: "lightblue", fontSize: "25px" }} class="fa fa-globe"></i>2nd Portfolio</a>
+               <a style={{ fontSize: "16px", marginLeft: "-3px", marginTop: "10px", display: "flex", alignItems: "center", gap: "15px" }} target='/' href='https://nijataliyev.vercel.app'><i style={{ color: "lightblue", fontSize: "25px" }} class="fa fa-globe"></i>2nd Portfolio</a>
             </Box>
             <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{ xs: '2rem', md: '2.5rem' }}>
                {info.socials.map((social, index) => (

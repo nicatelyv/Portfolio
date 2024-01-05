@@ -13,6 +13,10 @@
     min-height: 100vh;
 }
 
+.resume>.downloadBtn {
+    cursor: pointer !important;
+}
+
 .resume>div>a>.resumeImg {
     width: 100%;
     min-height: 100vh;
@@ -32,6 +36,7 @@
     color: black;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -43,7 +48,7 @@
         margin-top: 30px;
     }
 
-    .resume>div{
+    .resume>div {
         width: 100%;
         min-height: 50vh;
     }
