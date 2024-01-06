@@ -18,7 +18,7 @@ export const info = {
     miniBio: [
         {
             emoji: '🌎',
-            text: 'based in the Azerbaijan'
+            text: 'Based in the Azerbaijan'
         },
         {
             emoji: '💻',
@@ -50,19 +50,19 @@ export const info = {
         //     label: '2nd portfolio'
         // },
         {
-            link: "https://instagram.com/nicatelyv",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
             link: "mailto:nicateliyevv03@gmail.com",
             icon: "fa fa-envelope",
             label: 'Mail'
         },
         {
+            link: "https://instagram.com/nicatelyv",
+            icon: 'fa fa-instagram',
+            label: 'Instagram'
+        },
+        {
             link: "https://wa.me/+994705002045",
-            icon: "fa fa-phone",
-            label: 'Mail'
+            icon: "fa fa-whatsapp",
+            label: 'Whatsapp'
         },
         // {
         //     link: "https://facebook.com",
@@ -78,7 +78,7 @@ export const info = {
     bio: "Hello! I am Nijat. I graduated from Code Academy with a diploma in Full Stack Web Programming. I graduated from Azerbaijan Technical University with a degree in Computer Engineering.Apart from being a web developer, I enjoy most of my time being outdoors and sometimes play game. I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.",
     skills:
     {
-        proficientWith: ['JavaScript', 'HTML', 'CSS', 'Sass', 'React', 'Git', 'Github', 'Bootstrap', 'Figma','Windows Office Programms'],
+        proficientWith: ['JavaScript', 'HTML', 'CSS', 'Sass', 'React', 'Git', 'Github', 'Bootstrap', 'Figma', 'Windows Office Programms'],
         exposedTo: ['Nodejs', 'MongoDB', 'MsSQL']
     }
     ,
@@ -106,32 +106,37 @@ export const info = {
     ],
     portfolio: [
         {
-            title: "My Portfolio",
-            live: "https://nijataliyev.vercel.app/",
-            source: "https://github.com/nicatelyv/",
-            image: mock3
-        },
-        {
             title: "Swiss Delight",
             live: "https://swissdelight.vercel.app",
+            desc: "Chocolate & Cake shop",
             source: "https://github.com/nicatelyv/Swiss-Delight",
             image: mock1
         },
         {
             title: "Electronics Store",
             live: "https://electronicsstore.vercel.app/",
+            desc: "Online electronics shop",
             source: "https://github.com/nicatelyv/ElectronicsStore",
             image: mock2
         },
         {
+            title: "My Portfolio",
+            live: "https://nijataliyev.vercel.app/",
+            desc: "My 2nd Portfolio",
+            source: "https://github.com/nicatelyv/",
+            image: mock3
+        },
+        {
             title: "Tic Tac Toe",
             live: "https://tic-tac-toe-theta-peach.vercel.app/",
+            desc: 'Game',
             source: "https://github.com/nicatelyv/TicTacToe",
             image: mock4
         },
         {
             title: "Grayscale",
             live: "https://grayscale-nicatelyv.vercel.app/",
+            desc: "Template",
             source: "https://github.com/paytonjewell",
             image: mock5
         }

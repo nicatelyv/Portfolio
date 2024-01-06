@@ -11,8 +11,10 @@ export default function Portfolio() {
                     <Grid item xs={12} md={4} key={index}>
                         <PortfolioBlock image={project.image} live={project.live}
                             // source={project.source}
-                            title={project.title} />
+                            title={project.title}
+                            desc={project.desc} />
                     </Grid>
+
                 ))}
             </Grid>
         </Box>
