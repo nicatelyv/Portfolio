@@ -1,4 +1,4 @@
-import self from "../img/men.png"
+import self from "../img/me.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
@@ -21,7 +21,7 @@ export const info = {
             text: 'based in the Azerbaijan'
         },
         {
-            emoji: '☺',
+            emoji: '💻',
             text: 'I love writing code'
         },
         // {

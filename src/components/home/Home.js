@@ -1,6 +1,6 @@
 import React from 'react';
 import Style from './Home.module.scss';
-import me from '../../img/men.png';
+import me from '../../img/me.png';
 import classNames from 'classnames';
 import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
@@ -27,7 +27,7 @@ export default function Home() {
                   </>
 
                ))}
-               <a style={{ fontSize: "16px", marginLeft: "-3px", marginTop: "10px", display: "flex", alignItems: "center", gap: "15px" }} target='/' href='https://nijataliyev.vercel.app'><i style={{ color: "lightblue", fontSize: "25px" }} class="fa fa-globe"></i>2nd Portfolio</a>
+               <a style={{ fontSize: "16px", marginLeft: "-6px", marginTop: "5px", display: "flex", alignItems: "center" }} target='/' href='https://nijataliyev.vercel.app'> <Box display={'flex'} justifyContent={'center'} alignItems={'center'} gap={{ xs: "15px", md: "25px" }}><i style={{ color: "lightblue", fontSize: "27px" }} class="fa fa-globe"></i>2nd Portfolio</Box></a>
             </Box>
             <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{ xs: '2rem', md: '2.5rem' }}>
                {info.socials.map((social, index) => (
