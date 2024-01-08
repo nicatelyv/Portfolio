@@ -24,7 +24,6 @@ export default function About() {
             <p style={{ fontSize: "20px" }}><span style={{ color: info.baseColor }}>about{firstName} <span
                 className={Style.green}>(main)</span> $ </span>
                 <div style={{ lineHeight: "2rem", marginTop: "12px" }}>{info.bio}</div>
-                <div style={{ lineHeight: "2rem", marginTop: "12px" }}>{info.bio2}</div>
             </p>
         </>;
     }
