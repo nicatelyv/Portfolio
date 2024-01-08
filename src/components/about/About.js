@@ -3,10 +3,19 @@ import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import { Box } from "@mui/material";
 import { info } from "../../info/Info";
-
+import Backdrop from '@mui/material/Backdrop';
+import Button from '@mui/material/Button';
 
 export default function About() {
     const firstName = info.firstName.toLowerCase()
+
+    const [open, setOpen] = React.useState(false);
+    const handleClose = () => {
+        setOpen(false);
+    };
+    const handleOpen = () => {
+        setOpen(true);
+    };
 
     function aboutMeText() {
         return <>
@@ -15,6 +24,7 @@ export default function About() {
             <p style={{ fontSize: "20px" }}><span style={{ color: info.baseColor }}>about{firstName} <span
                 className={Style.green}>(main)</span> $ </span>
                 <div style={{ lineHeight: "2rem", marginTop: "12px" }}>{info.bio}</div>
+                <div style={{ lineHeight: "2rem", marginTop: "12px" }}>{info.bio2}</div>
             </p>
         </>;
     }
@@ -43,13 +53,13 @@ export default function About() {
             </p>
             <p><span style={{ color: info.baseColor }}>skills/tools <span
                 className={Style.green}>(main)</span> $</span> ls</p>
-            <p style={{ color: info.baseColor }}> Proficient With</p>
+            <p style={{ color: info.baseColor }}> Core Technologies:</p>
             <ul className={Style.skills}>
-                {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
+                {info.skills.coreTechnologies.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            <p style={{ color: info.baseColor }}> Exposed To</p>
+            <p style={{ color: info.baseColor }}> Others:</p>
             <ul className={Style.skills}>
-                {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
+                {info.skills.others.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
         </>;
     }
@@ -67,6 +77,24 @@ export default function About() {
             </ul>
         </>;
     }
+    function diploma() {
+        return <>
+            <p><span style={{ color: info.baseColor }}>{firstName}{info.lastName.toLowerCase()} $</span> cd
+                diploma</p>
+            <p><span style={{ color: info.baseColor }}>diploma <span
+                className={Style.green}>(main)</span> $</span></p>
+            {/* <a target='/' href='https://drive.google.com/file/d/1-ZZcXbg_8bC5wRQDYglXPA2oj95Pl1qy/view?usp=sharing'><div className={Style.diplomaDiv}></div></a> */}
+            <Button className={Style.diplomaDiv} onClick={handleOpen}></Button>
+            <Backdrop
+                sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                open={open}
+                onClick={handleClose}
+
+            >
+                <div className={Style.diplomaDivOpen} onClick={handleOpen}></div>
+            </Backdrop>
+        </>;
+    }
 
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
@@ -74,6 +102,7 @@ export default function About() {
             <Terminal text={educationText()} />
             <Terminal text={skillsText()} />
             <Terminal text={miscText()} />
+            <Terminal text={diploma()} />
         </Box>
     )
 }

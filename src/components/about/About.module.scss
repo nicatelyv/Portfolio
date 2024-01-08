@@ -24,3 +24,21 @@
 .education {
   columns: 1;
 }
+
+.diplomaDiv {
+  width: 100%;
+  height: 400px;
+  background-image: url(../../img//diploma.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.diplomaDivOpen {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../../img//diploma.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

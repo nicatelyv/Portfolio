@@ -75,11 +75,12 @@ export const info = {
         //     label: 'twitter'
         // }
     ],
-    bio: "Hello! I am Nijat. I graduated from Code Academy with a diploma in Full Stack Web Programming. I graduated from Azerbaijan Technical University with a degree in Computer Engineering.Apart from being a web developer, I enjoy most of my time being outdoors and sometimes play game. I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.",
+    bio: "Hello! I am Nijat. I graduated from Code Academy with a diploma in Full Stack Web Programming. I graduated from Azerbaijan Technical University with a degree in Computer Engineering.",
+    bio2: "Apart from being a web developer, I enjoy most of my time being outdoors and sometimes play game. I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.",
     skills:
     {
-        proficientWith: ['JavaScript', 'HTML', 'CSS', 'Sass', 'React', 'Git', 'Github', 'Bootstrap', 'Figma', 'Windows Office Programms'],
-        exposedTo: ['Nodejs', 'MongoDB', 'MsSQL']
+        coreTechnologies: ['JavaScript', 'HTML', 'CSS', 'Sass', 'ReactJS', 'NodeJS', 'MongoDB', 'Bootstrap', 'Material UI', 'Figma', 'Git', 'Github'],
+        others: ['MsSQL', 'Windows Office Programms', 'PowerBI', 'Canva'],
     }
     ,
     hobbies: [
