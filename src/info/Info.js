@@ -79,7 +79,7 @@ export const info = {
     skills:
     {
         coreTechnologies: ['JavaScript', 'HTML', 'CSS', 'Sass', 'ReactJS', 'NodeJS', 'MongoDB', 'Bootstrap', 'Material UI', 'Figma', 'Git', 'Github'],
-        others: ['MsSQL', 'Windows Office Programms', 'PowerBI', 'Canva'],
+        others: ['MsSQL', 'Microsoft Office Programms', 'PowerBI', 'Canva'],
     }
     ,
     hobbies: [
