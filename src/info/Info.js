@@ -40,7 +40,7 @@ export const info = {
             label: 'Github'
         },
         {
-            link: "https://www.linkedin.com/in/nicat-%C9%99liyev-4a627b262/",
+            link: "https://www.linkedin.com/in/nicatelyv/",
             icon: "fa fa-linkedin",
             label: 'LinkedIn'
         },
