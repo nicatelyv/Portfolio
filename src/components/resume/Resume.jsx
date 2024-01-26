@@ -5,9 +5,11 @@ function Resume() {
     return (
         <div className='resume'>
             <div>
-                <a target='/' href="https://drive.google.com/file/d/1ep_XbKT7OfXuHPKzRUyqQQn2w4Y-dfSe/view?usp=sharing"><div className='resumeImg'></div></a>
+                <div className='resumeImg'></div>
+                {/* <a target='/' href="https://drive.google.com/file/d/1bQGy_KzY0YkfylRMAZqkL_arllEZ5NHL/view?usp=sharing"> */}
+                {/* </a> */}
             </div>
-            <a className='downloadBtn' href="https://drive.usercontent.google.com/u/0/uc?id=1ep_XbKT7OfXuHPKzRUyqQQn2w4Y-dfSe&export=download"><button>Download</button></a>
+            <a className='downloadBtn' href="https://drive.usercontent.google.com/u/8/uc?id=1bQGy_KzY0YkfylRMAZqkL_arllEZ5NHL&export=download"><button>Download</button></a>
         </div>
     )
 }

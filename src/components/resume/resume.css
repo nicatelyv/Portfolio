@@ -17,7 +17,7 @@
     cursor: pointer !important;
 }
 
-.resume>div>a>.resumeImg {
+.resume>div>.resumeImg {
     width: 100%;
     min-height: 100vh;
     background-image: url(../../img/resume.jpg);
@@ -54,7 +54,7 @@
     }
 
 
-    .resume>div>a>.resumeImg {
+    .resume>div>.resumeImg {
         width: 90%;
         min-height: 70vh;
         margin-left: 20px;
