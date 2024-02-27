@@ -11,7 +11,7 @@ export const info = {
     firstName: "Nijat",
     lastName: "Aliyev",
     initials: "Nijat",
-    position: "a Full Stack Developer",
+    position: "a Front-End Developer",
     selfPortrait: self,
     gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
@@ -26,7 +26,7 @@ export const info = {
         },
         // {
         //     emoji: "💼",
-        //     text: "Systems Engineer at Google"
+        //     text: ""
         // },
         {
             emoji: "📧",
