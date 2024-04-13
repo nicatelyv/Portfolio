@@ -4,6 +4,8 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import mock6 from "../img/mock6.png"
+import mock7 from "../img/mock7.png"
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -120,25 +122,39 @@ export const info = {
             image: mock2
         },
         {
+            title: "To Do App",
+            live: "https://todo-nijat.vercel.app/",
+            desc: "Todo app with React",
+            source: "https://github.com/nicatelyv/ToDo",
+            image: mock3
+        },
+        {
+            title: "Space Tourism",
+            live: "https://spacetourism-nijat.vercel.app/",
+            desc: "Website",
+            source: "https://github.com/nicatelyv/SpaceTourism",
+            image: mock4
+        },
+        {
             title: "My Portfolio",
             live: "https://nijataliyev.vercel.app/",
             desc: "My 2nd Portfolio",
             source: "https://github.com/nicatelyv/",
-            image: mock3
+            image: mock5
         },
         {
             title: "Tic Tac Toe",
             live: "https://tic-tac-toe-theta-peach.vercel.app/",
             desc: 'Game',
             source: "https://github.com/nicatelyv/TicTacToe",
-            image: mock4
+            image: mock6
         },
         {
             title: "Grayscale",
             live: "https://grayscale-nicatelyv.vercel.app/",
             desc: "Template",
             source: "https://github.com/paytonjewell",
-            image: mock5
+            image: mock7
         }
     ]
 }
