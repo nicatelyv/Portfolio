@@ -6,6 +6,7 @@ import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
+import mock8 from "../img/mock8.png"
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -122,7 +123,7 @@ export const info = {
             image: mock2
         },
         {
-            title: "To Do App",
+            title: "To Do",
             live: "https://todo-nijat.vercel.app/",
             desc: "Todo app with React",
             source: "https://github.com/nicatelyv/ToDo",
@@ -136,17 +137,17 @@ export const info = {
             image: mock4
         },
         {
+            title: "Notes",
+            live: "https://ideapad.vercel.app/",
+            desc: "Notes app with React Redux",
+            source: "https://github.com/nicatelyv/NotesApp",
+            image: mock5
+        },
+        {
             title: "My Portfolio",
             live: "https://nijataliyev.vercel.app/",
             desc: "My 2nd Portfolio",
             source: "https://github.com/nicatelyv/",
-            image: mock5
-        },
-        {
-            title: "Tic Tac Toe",
-            live: "https://tic-tac-toe-theta-peach.vercel.app/",
-            desc: 'Game',
-            source: "https://github.com/nicatelyv/TicTacToe",
             image: mock6
         },
         {
@@ -155,6 +156,13 @@ export const info = {
             desc: "Template",
             source: "https://github.com/paytonjewell",
             image: mock7
-        }
+        },
+        {
+            title: "Tic Tac Toe",
+            live: "https://tic-tac-toe-theta-peach.vercel.app/",
+            desc: 'Game',
+            source: "https://github.com/nicatelyv/TicTacToe",
+            image: mock8
+        },
     ]
 }
