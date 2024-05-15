@@ -109,18 +109,18 @@ export const info = {
     ],
     portfolio: [
         {
-            title: "Swiss Delight",
-            live: "https://swissdelight.vercel.app",
-            desc: "Chocolate & Cake shop",
-            source: "https://github.com/nicatelyv/Swiss-Delight",
-            image: mock1
-        },
-        {
             title: "Electronics Store",
             live: "https://electronicsstore.vercel.app/",
             desc: "Online electronics shop",
             source: "https://github.com/nicatelyv/ElectronicsStore",
             image: mock2
+        },
+        {
+            title: "Swiss Delight",
+            live: "https://swissdelight.vercel.app",
+            desc: "Chocolate & Cake shop",
+            source: "https://github.com/nicatelyv/Swiss-Delight",
+            image: mock1
         },
         {
             title: "To Do",
@@ -147,19 +147,19 @@ export const info = {
             title: "My Portfolio",
             live: "https://nijataliyev.vercel.app/",
             desc: "My 2nd Portfolio",
-            source: "https://github.com/nicatelyv/",
+            source: "https://github.com/nicatelyv/Portfolio1",
             image: mock6
         },
         {
             title: "Grayscale",
             live: "https://grayscale-nicatelyv.vercel.app/",
             desc: "Template",
-            source: "https://github.com/paytonjewell",
+            source: "https://github.com/nicatelyv/Grayscale",
             image: mock7
         },
         {
             title: "Tic Tac Toe",
-            live: "https://tic-tac-toe-theta-peach.vercel.app/",
+            live: "https://tictactoe-nijat.vercel.app/",
             desc: 'Game',
             source: "https://github.com/nicatelyv/TicTacToe",
             image: mock8
