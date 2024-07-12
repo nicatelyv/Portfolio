@@ -34,15 +34,15 @@ export default function About() {
             </p>
             <p><span style={{ color: info.baseColor }}>education <span
                 className={Style.green}>(main)</span> $</span> ls</p>
-            <p style={{ color: info.baseColor }}>Bachelor's degree</p>
+            <p style={{ color: info.baseColor, marginTop: "20px" }}>Master's degree</p>
+            <li style={{ listStyle: "none" }} className={Style.education}>
+                {/* {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)} */}
+                <p style={{ marginTop: "-2px" }}>Odlar Yurdu University - Computer engineering</p>
+            </li>
+            <p style={{ color: info.baseColor, marginTop: "-10px" }}>Bachelor's degree</p>
             <li style={{ listStyle: "none" }} className={Style.education}>
                 {/* {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)} */}
                 <p style={{ marginTop: "-2px" }}>Azerbaijan Technical University - Computer engineering</p>
-            </li>
-            <p style={{ color: info.baseColor, marginTop: "-10px" }}>Master's degree</p>
-            <li style={{ listStyle: "none" }} className={Style.education}>
-                {/* {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)} */}
-                <p style={{ marginTop: "-2px" }}>University of Land of Fire - Computer engineering</p>
             </li>
             <p style={{ color: info.baseColor, marginTop: "-15px" }}>Programming</p>
             <li style={{ listStyle: "none" }} className={Style.education}>
