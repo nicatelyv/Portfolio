@@ -27,11 +27,11 @@ const links = [
         to: '/projects',
         active: 'projects'
     },
-    {
-        name: 'Resume',
-        to: '/resume',
-        active: 'resume'
-    },
+    // {
+    //     name: 'Resume',
+    //     to: '/resume',
+    //     active: 'resume'
+    // },
 ]
 
 export default function Navbar({ darkMode, handleClick }) {
