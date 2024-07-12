@@ -14,14 +14,14 @@ export const info = {
     firstName: "Nijat",
     lastName: "Aliyev",
     initials: "Nijat",
-    position: "a Front-End Developer",
+    position: "a Frontend developer",
     selfPortrait: self,
     gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
     miniBio: [
         {
             emoji: '🌎',
-            text: 'Based in the Azerbaijan'
+            text: 'Based in the Baku, Azerbaijan'
         },
         {
             emoji: '💻',
@@ -34,18 +34,22 @@ export const info = {
         {
             emoji: "📧",
             text: "nicateliyevv03@gmail.com"
+        },
+        {
+            emoji: "🎂",
+            text: "30.01.2003"
         }
     ],
     socials: [
         {
-            link: "https://github.com/nicatelyv",
-            icon: "fa fa-github",
-            label: 'Github'
-        },
-        {
             link: "https://www.linkedin.com/in/nicatelyv/",
             icon: "fa fa-linkedin",
             label: 'LinkedIn'
+        },
+        {
+            link: "https://github.com/nicatelyv",
+            icon: "fa fa-github",
+            label: 'Github'
         },
         // {
         //     link: "https://nijataliyev.vercel.app/",
@@ -57,11 +61,11 @@ export const info = {
             icon: "fa fa-envelope",
             label: 'Mail'
         },
-        {
-            link: "https://instagram.com/nicatelyv",
-            icon: 'fa fa-instagram',
-            label: 'Instagram'
-        },
+        // {
+        //     link: "https://instagram.com/nicatelyv",
+        //     icon: 'fa fa-instagram',
+        //     label: 'Instagram'
+        // },
         {
             link: "https://wa.me/+994705002045",
             icon: "fa fa-whatsapp",
@@ -78,11 +82,11 @@ export const info = {
         //     label: 'twitter'
         // }
     ],
-    bio: "Hello! I am Nijat. I graduated from Code Academy with a diploma in Full Stack Web Programming. I graduated from Azerbaijan Technical University with a degree in Computer Engineering. I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.",
+    bio: "I, Aliyev Nijat, was born in Baku. In the years 2009-2020, I received secondary education in full secondary school No. 301. In 2020-2024, I completed my bachelor's degree at AzTU and 2024-2026 study my master's degree at OYU. My specialty was 'Computer engineering' in both. I have more than 1 year of experience in frontend programming. I have continuous learning interests in programming and web design.",
     skills:
     {
-        coreTechnologies: ['JavaScript', 'HTML', 'CSS', 'Sass', 'ReactJS', 'NodeJS', 'MongoDB', 'Bootstrap', 'Material UI', 'Figma', 'Git', 'Github'],
-        others: ['MsSQL', 'Microsoft Office Programms', 'PowerBI', 'Canva'],
+        coreTechnologies: ['JavaScript', 'HTML', 'CSS/SCSS', 'React.js', 'Redux/Redux Toolkit', 'Node.js', 'MongoDB', 'Bootstrap', 'Material UI', 'Figma', 'Git/Github'],
+        others: ['MsSQL', 'Microsoft Office Programs', 'PowerBI', 'Canva'],
     }
     ,
     hobbies: [

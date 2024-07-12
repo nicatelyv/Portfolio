@@ -3,19 +3,19 @@ import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import { Box } from "@mui/material";
 import { info } from "../../info/Info";
-import Backdrop from '@mui/material/Backdrop';
-import Button from '@mui/material/Button';
+// import Backdrop from '@mui/material/Backdrop';
+// import Button from '@mui/material/Button';
 
 export default function About() {
     const firstName = info.firstName.toLowerCase()
 
-    const [open, setOpen] = React.useState(false);
-    const handleClose = () => {
-        setOpen(false);
-    };
-    const handleOpen = () => {
-        setOpen(true);
-    };
+    // const [open, setOpen] = React.useState(false);
+    // const handleClose = () => {
+    //     setOpen(false);
+    // };
+    // const handleOpen = () => {
+    //     setOpen(true);
+    // };
 
     function aboutMeText() {
         return <>
@@ -37,11 +37,16 @@ export default function About() {
             <p style={{ color: info.baseColor }}>Bachelor's degree</p>
             <li style={{ listStyle: "none" }} className={Style.education}>
                 {/* {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)} */}
-                <p style={{ marginTop: "-2px" }}>Azerbaijan Technical University - Computer Engineer</p>
+                <p style={{ marginTop: "-2px" }}>Azerbaijan Technical University - Computer engineering</p>
+            </li>
+            <p style={{ color: info.baseColor, marginTop: "-10px" }}>Master's degree</p>
+            <li style={{ listStyle: "none" }} className={Style.education}>
+                {/* {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)} */}
+                <p style={{ marginTop: "-2px" }}>University of Land of Fire - Computer engineering</p>
             </li>
             <p style={{ color: info.baseColor, marginTop: "-15px" }}>Programming</p>
             <li style={{ listStyle: "none" }} className={Style.education}>
-                <p style={{ marginTop: "-2px" }}>Code Academy - Full Stack Web Development</p>
+                <p style={{ marginTop: "-2px" }}>Code Academy - Software Development (Diploma and certificate)</p>
                 {/* {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)} */}
             </li>
         </>;
@@ -76,24 +81,24 @@ export default function About() {
             </ul>
         </>;
     }
-    function diploma() {
-        return <>
-            <p><span style={{ color: info.baseColor }}>{firstName}{info.lastName.toLowerCase()} $</span> cd
-                diploma</p>
-            <p><span style={{ color: info.baseColor }}>diploma <span
-                className={Style.green}>(main)</span> $</span></p>
-            {/* <a target='/' href='https://drive.google.com/file/d/1-ZZcXbg_8bC5wRQDYglXPA2oj95Pl1qy/view?usp=sharing'><div className={Style.diplomaDiv}></div></a> */}
-            <Button className={Style.diplomaDiv} onClick={handleOpen}></Button>
-            <Backdrop
-                sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-                open={open}
-                onClick={handleClose}
+    // function diploma() {
+    //     return <>
+    //         <p><span style={{ color: info.baseColor }}>{firstName}{info.lastName.toLowerCase()} $</span> cd
+    //             diploma</p>
+    //         <p><span style={{ color: info.baseColor }}>diploma <span
+    //             className={Style.green}>(main)</span> $</span></p>
+    //         {/* <a target='/' href='https://drive.google.com/file/d/1-ZZcXbg_8bC5wRQDYglXPA2oj95Pl1qy/view?usp=sharing'><div className={Style.diplomaDiv}></div></a> */}
+    //         <Button className={Style.diplomaDiv} onClick={handleOpen}></Button>
+    //         <Backdrop
+    //             sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+    //             open={open}
+    //             onClick={handleClose}
 
-            >
-                <div className={Style.diplomaDivOpen} onClick={handleOpen}></div>
-            </Backdrop>
-        </>;
-    }
+    //         >
+    //             <div className={Style.diplomaDivOpen} onClick={handleOpen}></div>
+    //         </Backdrop>
+    //     </>;
+    // }
 
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
@@ -101,7 +106,7 @@ export default function About() {
             <Terminal text={educationText()} />
             <Terminal text={skillsText()} />
             <Terminal text={miscText()} />
-            <Terminal text={diploma()} />
+            {/* <Terminal text={diploma()} /> */}
         </Box>
     )
 }

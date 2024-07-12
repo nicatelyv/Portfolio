@@ -23,7 +23,7 @@ export default function BaseLayout() {
       let detectedDarkMode = eval(localStorage.getItem('darkMode'));
 
       if (detectedDarkMode) {
-         setDarkMode(detectedDarkMode)
+         setDarkMode(detectedDarkMode) 
       } else {
          localStorage.setItem('darkMode', 'false')
       }
@@ -41,7 +41,7 @@ export default function BaseLayout() {
                   <Route exact path={'/'} element={<Home />} />
                   <Route exact path={'/about'} element={<About />} />
                   <Route exact path={'/projects'} element={<Portfolio />} />
-                  {/* <Route exact path={'/resume'} element={<Resume />} /> */}
+                  <Route exact path={'/resume'} element={<Resume />} />
                </Routes>
             </Grid>
             <Grid item>

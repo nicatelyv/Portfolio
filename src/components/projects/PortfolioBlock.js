@@ -6,7 +6,7 @@ function PortfolioBlock(props) {
    const {
       image,
       live,
-      source,
+      // source,
       title,
       desc
    } = props;
@@ -21,9 +21,9 @@ function PortfolioBlock(props) {
             <Box fontSize={'18px'} p={1}>
                <IconLink link={live} title={'Live Demo'} icon={'fa fa-safari'} />
             </Box>
-            <Box fontSize={'15px'} p={1}>
+            {/* <Box fontSize={'15px'} p={1}>
                <IconLink link={source} title={'Source Code'} icon={'fa fa-code'} />
-            </Box>
+            </Box> */}
          </Box>
       </Box>
    );
